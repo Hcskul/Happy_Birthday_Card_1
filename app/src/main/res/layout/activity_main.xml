@@ -5,8 +5,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/android_party"/>
+
     <TextView 
-        android:text="Happy Birthday Grandma!" 
+        android:text="Happy Birthday Grandma!"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -14,13 +24,11 @@
         android:text="From Lukas!"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    
-    <ImageView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/android_party"/>
 
 </RelativeLayout>
